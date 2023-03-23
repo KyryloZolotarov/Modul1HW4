@@ -49,21 +49,18 @@
             if (counter2 > counter3)
             {
                 Console.WriteLine("Array 1 has more upper letters");
-                Console.WriteLine(arr2str);
-                Console.WriteLine(arr3str);
             }
             else if (counter2 < counter3)
             {
                 Console.WriteLine("Array 2 has more upper letters");
-                Console.WriteLine(arr3str);
-                Console.WriteLine(arr2str);
             }
             else
             {
                 Console.WriteLine("Array 1 equel Array 2");
-                Console.WriteLine(arr2str);
-                Console.WriteLine(arr3str);
             }
+
+            Console.WriteLine(arr2str);
+            Console.WriteLine(arr3str);
         }
     }
 }
